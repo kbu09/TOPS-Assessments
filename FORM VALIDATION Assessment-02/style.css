@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.form-box {
+    box-shadow: 15px 15px 20px 20px grey;
+    width: max-content;
+    height: min-content;
+    margin: auto;
+    padding: 25px;
+    margin-top: 20px;
+    font-size: large;
+    border-top: 10px solid rgb(230, 117, 12);
+}
+
+i {
+    background-color: white;
+    padding: 10px;
+    border: 1px rgba(141, 137, 137, 0.832) solid;
+    position: relative;
+    top: 2px;
+}
+
+.inp {
+    width: 80%;
+    height: 19px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px rgba(141, 137, 137, 0.832) solid;
+}
+
+.inp1 {
+    border: 1px rgba(141, 137, 137, 0.832) solid;
+    width: 62%;
+    height: 19px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.drop {
+    width: 80%;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.flname {
+    width: max-content;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.gen {
+    margin-top: 20px;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    border-radius: 25px;
+    background-color: rgb(230, 117, 12);
+    margin-top: 15px;
+}
+
+.erbox {
+    width: max-content;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+span {
+    color: red;
+    text-decoration: underline;
+    margin-top: 205px;
+    font-size: x-large;
+}
